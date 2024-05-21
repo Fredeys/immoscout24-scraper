@@ -31,13 +31,18 @@ git clone https://github.com/Fredeys/immoscout24-scraper.git
 ```
 cd immoscout24-scraper
 ```
-### Run the scraper:
+### Start Jupyter Notebook:
 ```
-python immoscout24_scraper.py
+jupyter notebook
 ```
+### Open the notebook:
+- In the Jupyter interface that opens in your web browser, navigate to and open the immoscout24_scraper.ipynb notebook.
+
+### Run the notebook:
+- Execute the cells in the notebook sequentially to run the scraper and collect data.
 
 ## Customizing scraping parameters
-You can adjust the scraping parameters specific types or regions. Modify the the parameters in the `immoscraper.py` script to suit your needs.
+You can adjust the scraping parameters specific types or regions. Modify the the parameters in the `immoscout24_scraper.ipynb` script to suit your needs.
 
 ## Debugging
 Enhanced debugging features have been integrated to help you indentify and resolve issues quickly.
@@ -51,20 +56,20 @@ save_to_csv(df, s, k, w)
 ## Contributing
 We welcome contributions from the community! If you have ideas for improvements or new features, feel free to fork the repository and submit a pull request. Here's how you can contribute:
 
-Fork the repository.
--Create a new branch for your feature or bug fix:
+1. Fork the repository.
+Create a new branch for your feature or bug fix:
 ```
 git checkout -b feature-name
 ```
-- Make your changes and commit them:
+2. Make your changes and commit them:
 ```
 git commit -m "Add some feature"
 ```
-- Push to the branch:
+3. Push to the branch:
 ```
 git push origin feature-name
 ```
-- Open a pull request to the main repository.
+4. Open a pull request to the main repository.
 
 ## Credits
 Special thanks to balzer82 for the original scraper code. This project builds upon his work and adapts it to the current website structures.
